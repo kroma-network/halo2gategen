@@ -1,5 +1,5 @@
 #![allow(dead_code)]
-use halo2_proofs::{circuit::AssignedCell, halo2curves::ff::PrimeField};
+use halo2_proofs::{circuit::AssignedCell, halo2curves::group::ff::PrimeField};
 
 #[derive(Clone, Debug)]
 pub struct Limb<F: PrimeField> {

@@ -232,7 +232,7 @@ mod tests {
     use crate::GateCell;
     use crate::Limb;
     use halo2_proofs::circuit::Region;
-    use halo2_proofs::halo2curves::ff::PrimeField;
+    use halo2_proofs::halo2curves::group::ff::PrimeField;
     use halo2_proofs::plonk::{Advice, Column, Error, Expression, Fixed, Selector, VirtualCells};
     use halo2_proofs::poly::Rotation;
 
